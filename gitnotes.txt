@@ -1,0 +1,18 @@
+1.Download git bash(standalone)
+
+2.Open git hub account->Settings->SSh and gpg key
+
+3.Choose underlined generate ssh(git docs)
+
+4.Select 5 option
+  ->Generating new ssh key with adding ssh agent
+
+5. you will get 2nd point as cmd->open git bash in the system and paste the below cmd
+  ssh-keygen -t ed25519 -C "your email id.com"
+
+6.Please enter the enter key till u get ssh key.
+
+7. Open the path and copy ssh key from notepad.
+  c/user/username/.ssh/ .pub file
+
+8.Paste the key in the github.
